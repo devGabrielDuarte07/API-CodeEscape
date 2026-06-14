@@ -1,1 +1,5 @@
 wwwroot\uploads\avatars\default.png
+wwwroot\uploads\capas\defaultCapa.png
+wwwroot\uploads\capas\morse.png
+wwwroot\uploads\capas\ascii.png
+wwwroot\uploads\capas\crypto.png

@@ -15,7 +15,7 @@ public partial class TabelaRoom
 
     public int CriadorId { get; set; }
 
-    public ulong IsAtiva { get; set; }
+    public bool IsAtiva { get; set; }
 
     public DateTime? CriadaEm { get; set; }
 

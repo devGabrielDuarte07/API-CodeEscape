@@ -19,9 +19,9 @@ public partial class Gamesession
 
     public DateTime? DataFim { get; set; }
 
-    public ulong Finalizada { get; set; }
+    public bool Finalizada { get; set; }
 
-    public ulong IsAtivo { get; set; }
+    public bool IsAtivo { get; set; }
 
     public virtual TabelaRoom? Room { get; set; }
 

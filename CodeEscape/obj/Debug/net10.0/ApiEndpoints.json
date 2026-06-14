@@ -1,5 +1,53 @@
 [
   {
+    "ContainingType": "CodeEscape.Controllers.GameSessionsController",
+    "Method": "EnigmaAtual",
+    "RelativePath": "api/GameSessions/{id}/enigma-atual",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.GameSessionsController",
+    "Method": "ResponderEnigma",
+    "RelativePath": "api/GameSessions/Responder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CodeEscape.DTOs.GameSession.ResponderEnigmaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.GameSessionsController",
+    "Method": "Start",
+    "RelativePath": "api/GameSessions/Start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CodeEscape.DTOs.GameSession.StartGameSessionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CodeEscape.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login",
@@ -10,6 +58,32 @@
       {
         "Name": "dto",
         "Type": "CodeEscape.DTOs.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.RoomController",
+    "Method": "ListarSalas",
+    "RelativePath": "api/Room",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.RoomController",
+    "Method": "ListarSalaPorId",
+    "RelativePath": "api/Room/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -29,16 +103,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CodeEscape.Controllers.UsuarioController",
-    "Method": "TEstar",
-    "RelativePath": "api/Usuario",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   }
 ]

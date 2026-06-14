@@ -92,7 +92,9 @@ builder.Services.AddDbContext<CodeEscapeContext>(options =>
 
 // services
 builder.Services.AddScoped<CadastroService>();
+builder.Services.AddScoped<GameSessionsService>();
 builder.Services.AddScoped<LoginService>();
+builder.Services.AddScoped<RoomService>();
 builder.Services.AddHttpContextAccessor();
 
 // 🔹 JWT Authentication

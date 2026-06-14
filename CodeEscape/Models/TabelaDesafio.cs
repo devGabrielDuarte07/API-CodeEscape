@@ -19,7 +19,7 @@ public partial class TabelaDesafio
 
     public int? Ordem { get; set; }
 
-    public ulong IsAtivo { get; set; }
+    public bool IsAtivo { get; set; }
 
     public virtual TabelaRoom Room { get; set; } = null!;
 }
