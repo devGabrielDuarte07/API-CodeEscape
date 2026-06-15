@@ -94,11 +94,11 @@ namespace CodeEscape.Service
         
         }
 
-        public ResultadoPadrao<ResponderEnigmaResponse> ResponderEnigma(ResponderEnigmaRequest dto)
+        public ResultadoPadrao<ResponderEnigmaResponse> ResponderEnigma(int id, ResponderEnigmaRequest dto)
         {
             var UserId = ObterIdUsuarioLogado();
 
-            var gameSession = db.Gamesessions.FirstOrDefault(g => g.Id == dto.GameSessionId && !g.Finalizada && g.UserId == UserId);
+            var gameSession = db.Gamesessions.FirstOrDefault(g => g.Id == id && !g.Finalizada && g.UserId == UserId);
 
             if (gameSession == null)
                 return ResultadoPadrao<ResponderEnigmaResponse>.Falha("Sessao não encontrada");
@@ -149,9 +149,42 @@ namespace CodeEscape.Service
             }
         }
 
-        public ResultadoPadrao<object> PedirDica()
+        public ResultadoPadrao<PedirDicaResponse> PedirDica(int GameSessionId)
         {
-            return ResultadoPadrao<object>.Ok();
+            var UserId = ObterIdUsuarioLogado();
+
+            var gameSession = db.Gamesessions.Where(g => g.Id == GameSessionId && g.UserId == UserId && !g.Finalizada).FirstOrDefault();
+
+            if (gameSession == null)
+                return ResultadoPadrao<PedirDicaResponse>.Falha("Sessao não encontrada");
+
+            var enigmaAtual = db.TabelaDesafios.Where(d => d.RoomId == gameSession.RoomId && d.Ordem == gameSession.EnigmaAtual && d.IsAtivo).FirstOrDefault();
+
+            if (enigmaAtual == null)
+                return ResultadoPadrao<PedirDicaResponse>.Falha("Enigma não encontrado");
+
+            var jaPediuDica = db.Gamesessiondicas.Any(d => d.GameSessionId ==  GameSessionId && d.OrdemEnigma == enigmaAtual.Ordem);
+
+            if (jaPediuDica)
+                return ResultadoPadrao<PedirDicaResponse>.Falha("Você já utilizou a dica deste enigma");
+
+            gameSession.Pontuacao -= 25;
+
+            var Gamesessiondica = new Gamesessiondica
+            {
+                GameSessionId = GameSessionId,
+                OrdemEnigma = enigmaAtual.Ordem
+            };
+
+            db.Gamesessiondicas.Add(Gamesessiondica);
+
+            db.SaveChanges();
+            var Dica = new PedirDicaResponse
+            {
+                Dica = enigmaAtual.Dica,
+                Pontuacao = gameSession.Pontuacao
+            };
+            return ResultadoPadrao<PedirDicaResponse>.Ok(Dica);
         }
         private int ObterIdUsuarioLogado()
         {

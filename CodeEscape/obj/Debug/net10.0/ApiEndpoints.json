@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "CodeEscape.Controllers.GameSessionsController",
+    "Method": "PedirDica",
+    "RelativePath": "api/GameSessions/pedir-dica/{gameSessionId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameSessionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.GameSessionsController",
     "Method": "ResponderEnigma",
     "RelativePath": "api/GameSessions/Responder",
     "HttpMethod": "POST",

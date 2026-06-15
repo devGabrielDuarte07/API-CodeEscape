@@ -129,6 +129,29 @@
         }
       }
     },
+    "/api/GameSessions/pedir-dica/{gameSessionId}": {
+      "post": {
+        "tags": [
+          "GameSessions"
+        ],
+        "parameters": [
+          {
+            "name": "gameSessionId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Login": {
       "post": {
         "tags": [

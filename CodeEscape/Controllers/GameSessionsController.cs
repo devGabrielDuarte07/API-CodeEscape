@@ -32,10 +32,17 @@ namespace CodeEscape.Controllers
         }
 
         [Authorize]
-        [HttpPost("Responder")]
-        public IActionResult ResponderEnigma(ResponderEnigmaRequest dto)
+        [HttpPost("{id}/Responder")]
+        public IActionResult ResponderEnigma(int id, ResponderEnigmaRequest dto)
         {
-            return Resultado(_gameSessionsService.ResponderEnigma(dto));
-        }                      
+            return Resultado(_gameSessionsService.ResponderEnigma(id, dto));
+        }
+
+        [Authorize]
+        [HttpPost("{id}/dica")]
+        public IActionResult PedirDica(int id)
+        {
+            return Resultado(_gameSessionsService.PedirDica(id));
+        }
     }
 }

@@ -131,8 +131,8 @@ D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\refint\CodeEscape.dll
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.pdb
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.genruntimeconfig.cache
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\ref\CodeEscape.dll
-D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.xml
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.xml
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.staticwebassets.runtime.json
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.sourcelink.json
+D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

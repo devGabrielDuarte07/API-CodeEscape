@@ -18,6 +18,8 @@ public partial class CodeEscapeContext : DbContext
 
     public virtual DbSet<Gamesession> Gamesessions { get; set; }
 
+    public virtual DbSet<Gamesessiondica> Gamesessiondicas { get; set; }
+
     public virtual DbSet<TabelaDesafio> TabelaDesafios { get; set; }
 
     public virtual DbSet<TabelaRoom> TabelaRooms { get; set; }
@@ -67,6 +69,27 @@ public partial class CodeEscapeContext : DbContext
             entity.HasOne(d => d.User).WithMany(p => p.Gamesessions)
                 .HasForeignKey(d => d.UserId)
                 .HasConstraintName("FK_gamesession_tabela_usuario");
+        });
+
+        modelBuilder.Entity<Gamesessiondica>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PRIMARY");
+
+            entity.ToTable("gamesessiondica");
+
+            entity.HasIndex(e => e.GameSessionId, "FK_GameSessionDica_GameSession");
+
+            entity.Property(e => e.Id).HasColumnType("int(11)");
+            entity.Property(e => e.DataUso)
+                .HasDefaultValueSql("current_timestamp()")
+                .HasColumnType("timestamp");
+            entity.Property(e => e.GameSessionId).HasColumnType("int(11)");
+            entity.Property(e => e.OrdemEnigma).HasColumnType("int(11)");
+
+            entity.HasOne(d => d.GameSession).WithMany(p => p.Gamesessiondicas)
+                .HasForeignKey(d => d.GameSessionId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_GameSessionDica_GameSession");
         });
 
         modelBuilder.Entity<TabelaDesafio>(entity =>

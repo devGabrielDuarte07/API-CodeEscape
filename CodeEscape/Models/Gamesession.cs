@@ -23,6 +23,8 @@ public partial class Gamesession
 
     public bool IsAtivo { get; set; }
 
+    public virtual ICollection<Gamesessiondica> Gamesessiondicas { get; set; } = new List<Gamesessiondica>();
+
     public virtual TabelaRoom? Room { get; set; }
 
     public virtual TabelaUsuario? User { get; set; }
