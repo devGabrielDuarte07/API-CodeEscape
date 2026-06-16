@@ -1,6 +1,7 @@
 ﻿using CodeEscape.Common;
 using CodeEscape.DTOs.GameSession;
 using CodeEscape.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
 namespace CodeEscape.Service
@@ -186,6 +187,42 @@ namespace CodeEscape.Service
             };
             return ResultadoPadrao<PedirDicaResponse>.Ok(Dica);
         }
+
+        public ResultadoPadrao<List<MinhasPartidasResponse>> MinhasPartidas()
+        {
+            var userId = ObterIdUsuarioLogado();
+
+            var partidas = db.Gamesessions
+                .Where(g => g.UserId == userId)
+                .OrderByDescending(t => t.DataInicio)
+                .Select(a => new
+                {
+                    a.Id,
+                    Sala = a.Room.Nome,
+                    a.Pontuacao,
+                    a.Finalizada,
+                    a.DataInicio,
+                    a.DataFim
+                }).ToList()
+                .Select(a => new MinhasPartidasResponse
+                {
+                    GameSessionId = a.Id,
+                    Sala = a.Sala,
+                    Pontuacao = a.Pontuacao,
+                    Finalizada = a.Finalizada,
+                    DataInicio = a.DataInicio,
+                    DataFim = a.DataFim,
+                    TempoSegundos = a.DataFim.HasValue && a.DataInicio.HasValue 
+                    ? (a.DataFim - a.DataInicio).Value.TotalSeconds 
+                    : null
+                }).ToList();
+
+            if (partidas.Count == 0)
+                return ResultadoPadrao<List<MinhasPartidasResponse>>.Falha("Nenhuma partida encontrada");
+
+            return ResultadoPadrao<List<MinhasPartidasResponse>>.Ok(partidas);
+        }
+
         private int ObterIdUsuarioLogado()
         {
 

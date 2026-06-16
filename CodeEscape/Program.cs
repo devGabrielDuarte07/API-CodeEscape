@@ -94,6 +94,7 @@ builder.Services.AddDbContext<CodeEscapeContext>(options =>
 builder.Services.AddScoped<CadastroService>();
 builder.Services.AddScoped<GameSessionsService>();
 builder.Services.AddScoped<LoginService>();
+builder.Services.AddScoped<RankingService>();
 builder.Services.AddScoped<RoomService>();
 builder.Services.AddHttpContextAccessor();
 

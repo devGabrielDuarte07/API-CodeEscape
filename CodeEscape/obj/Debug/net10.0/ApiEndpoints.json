@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "CodeEscape.Controllers.GameSessionsController",
+    "Method": "PedirDica",
+    "RelativePath": "api/GameSessions/{id}/dica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.GameSessionsController",
     "Method": "EnigmaAtual",
     "RelativePath": "api/GameSessions/{id}/enigma-atual",
     "HttpMethod": "POST",
@@ -17,15 +33,20 @@
   },
   {
     "ContainingType": "CodeEscape.Controllers.GameSessionsController",
-    "Method": "PedirDica",
-    "RelativePath": "api/GameSessions/pedir-dica/{gameSessionId}",
+    "Method": "ResponderEnigma",
+    "RelativePath": "api/GameSessions/{id}/Responder",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "gameSessionId",
+        "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "CodeEscape.DTOs.GameSession.ResponderEnigmaRequest",
         "IsRequired": true
       }
     ],
@@ -33,18 +54,12 @@
   },
   {
     "ContainingType": "CodeEscape.Controllers.GameSessionsController",
-    "Method": "ResponderEnigma",
-    "RelativePath": "api/GameSessions/Responder",
-    "HttpMethod": "POST",
+    "Method": "MinhasPartidas",
+    "RelativePath": "api/GameSessions/minhas-partidas",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "CodeEscape.DTOs.GameSession.ResponderEnigmaRequest",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -74,6 +89,22 @@
       {
         "Name": "dto",
         "Type": "CodeEscape.DTOs.Auth.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.RankingController",
+    "Method": "RankingPorSala",
+    "RelativePath": "api/Ranking/sala/{roomId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

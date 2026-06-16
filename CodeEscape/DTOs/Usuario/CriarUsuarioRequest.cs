@@ -21,6 +21,10 @@ namespace CodeEscape.DTOs.Usuario
         public string Email { get; set; }
 
         [Required]
+        [RegularExpression(
+            @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d!@#$%&*._-]{6,50}$",
+            ErrorMessage = "A senha deve ter no mínimo 6 caracteres e no máximo 50, 1 letra maiúscula, 1 minúscula, 1 número e apenas os caracteres especiais !@#$%&*._-"
+        )]
         public string Senha { get; set; }
 
         [Required]

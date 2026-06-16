@@ -9,6 +9,41 @@
     "version": "v1.0"
   },
   "paths": {
+    "/api/GameSessions/minhas-partidas": {
+      "get": {
+        "tags": [
+          "GameSessions"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Ranking/sala/{roomId}": {
+      "get": {
+        "tags": [
+          "Ranking"
+        ],
+        "parameters": [
+          {
+            "name": "roomId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Room": {
       "get": {
         "tags": [
@@ -98,10 +133,21 @@
         }
       }
     },
-    "/api/GameSessions/Responder": {
+    "/api/GameSessions/{id}/Responder": {
       "post": {
         "tags": [
           "GameSessions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -129,14 +175,14 @@
         }
       }
     },
-    "/api/GameSessions/pedir-dica/{gameSessionId}": {
+    "/api/GameSessions/{id}/dica": {
       "post": {
         "tags": [
           "GameSessions"
         ],
         "parameters": [
           {
-            "name": "gameSessionId",
+            "name": "id",
             "in": "path",
             "required": true,
             "schema": {
@@ -246,6 +292,7 @@
           },
           "senha": {
             "minLength": 1,
+            "pattern": "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[A-Za-z\\d!@#$%&*._-]{6,50}$",
             "type": "string"
           },
           "confirmarSenha": {
@@ -280,10 +327,6 @@
       "ResponderEnigmaRequest": {
         "type": "object",
         "properties": {
-          "gameSessionId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "resposta": {
             "type": "string",
             "nullable": true

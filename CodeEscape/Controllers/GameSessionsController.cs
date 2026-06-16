@@ -44,5 +44,12 @@ namespace CodeEscape.Controllers
         {
             return Resultado(_gameSessionsService.PedirDica(id));
         }
+
+        [Authorize]
+        [HttpGet("minhas-partidas")]
+        public IActionResult MinhasPartidas()
+        {
+            return Resultado(_gameSessionsService.MinhasPartidas());
+        }
     }
 }
