@@ -80,12 +80,16 @@ namespace CodeEscape.Service
             if (gameSession == null)
                 return ResultadoPadrao<ObterEnigmaAtualResponse>.Falha("Sessao não encontrada");
 
+            var totalEnigmas = db.TabelaDesafios.Where(d => d.RoomId == gameSession.RoomId).Count();
+
+
             var enigmaAtual = db.TabelaDesafios.Where(d => d.RoomId == gameSession.RoomId && d.Ordem == gameSession.EnigmaAtual && d.IsAtivo).Select(a => new ObterEnigmaAtualResponse
             {
                 Id = a.Id,
                 Titulo = a.Titulo,
                 Pergunta = a.Pergunta,
-                Ordem = a.Ordem
+                Ordem = a.Ordem,
+                TotalEnigmas = totalEnigmas
             }).FirstOrDefault();
 
             if(enigmaAtual == null)

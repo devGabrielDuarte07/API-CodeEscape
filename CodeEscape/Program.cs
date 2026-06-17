@@ -90,6 +90,18 @@ builder.Services.AddDbContext<CodeEscapeContext>(options =>
     )
 );
 
+// Cors
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("CorsPolicy", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 // services
 builder.Services.AddScoped<CadastroService>();
 builder.Services.AddScoped<GameSessionsService>();
@@ -128,6 +140,8 @@ app.UseSwaggerUI();
 // arquivo
 app.UseStaticFiles();
 
+// cors
+app.UseCors("CorsPolicy");
 // 🔹 Pipeline
 app.UseAuthentication(); // ⚠️ sempre antes
 app.UseAuthorization();

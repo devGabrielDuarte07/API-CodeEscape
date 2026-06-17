@@ -39,8 +39,7 @@ namespace CodeEscape.Service
                 })
                 .ToList();
 
-            if (ranking.Count == 0)
-                return ResultadoPadrao<List<RankingSalaResponse>>.Falha("Ranking não encontrado");
+            
 
             return ResultadoPadrao<List<RankingSalaResponse>>.Ok(ranking);
         }

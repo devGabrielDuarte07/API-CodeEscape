@@ -6,5 +6,6 @@
         public string Titulo { get; set; }
         public string Pergunta { get; set; }
         public int? Ordem { get; set; }
+        public int? TotalEnigmas { get; set; }
     }
 }
