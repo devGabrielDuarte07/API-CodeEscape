@@ -1,4 +1,5 @@
 ﻿using CodeEscape.Common;
+using CodeEscape.DTOs;
 using CodeEscape.DTOs.GameSession;
 using CodeEscape.Models;
 using Microsoft.EntityFrameworkCore;
@@ -227,6 +228,51 @@ namespace CodeEscape.Service
             return ResultadoPadrao<List<MinhasPartidasResponse>>.Ok(partidas);
         }
 
+        public ResultadoPadrao<ResultadoPartidaResponse> ResultadoPartida(int idGameSession)
+        {
+            var UserId = ObterIdUsuarioLogado();
+
+            var gameSession = db.Gamesessions
+                .Include(g => g.Room)
+                .FirstOrDefault(g =>
+                    g.Id == idGameSession &&
+                    g.UserId == UserId && 
+                    g.Finalizada
+                );
+
+                if (gameSession == null)
+                {
+                    return ResultadoPadrao<ResultadoPartidaResponse>.Falha("Partida não encontrada.");
+                }
+
+            var ranking = db.Gamesessions
+                .Where(g =>
+                    g.RoomId == gameSession.RoomId &&
+                    g.Finalizada)
+                .ToList()
+                .GroupBy(g => g.UserId)
+                .Select(grupo => grupo
+                    .OrderByDescending(p => p.Pontuacao)
+                    .ThenBy(p => p.DataFim - p.DataInicio)
+                    .First()
+                )
+                .OrderByDescending(g => g.Pontuacao)
+                .ThenBy(g => g.DataFim - g.DataInicio)
+                .ToList();
+
+            var posicao = ranking.FindIndex(g => g.UserId == UserId) + 1;
+
+            var resultadoFinal = new ResultadoPartidaResponse   
+            {
+                NomeSala = gameSession.Room.Nome,
+                Pontuacao = gameSession.Pontuacao,
+                TempoSegundos = (gameSession.DataFim - gameSession.DataInicio).Value.TotalSeconds,
+                MelhorPosicaoRanking = posicao,
+                CodigoSala = gameSession.RoomId
+            };
+
+            return ResultadoPadrao<ResultadoPartidaResponse>.Ok(resultadoFinal);
+        }
         private int ObterIdUsuarioLogado()
         {
 

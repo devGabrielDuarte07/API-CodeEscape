@@ -7,64 +7,24 @@
       "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\service\\gamesessionsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\gamesession\\obterenigmaatualresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\gamesession\\obterenigmaatualresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\service\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\service\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\service\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\room\\dadosroomresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\room\\dadosroomresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\gamesession\\minhaspartidasresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\gamesession\\minhaspartidasresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\service\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\auth\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\service\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\service\\cadastroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\usuario\\criarusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\usuario\\criarusuariorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\controllers\\gamesessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\controllers\\gamesessionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\ranking\\rankingsalaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\ranking\\rankingsalaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\models\\gamesession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\gamesession\\pedirdicaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\gamesession\\pedirdicaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\models\\gamesessiondica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\models\\gamesessiondica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|d:\\projetos\\codeescape\\codeescape\\dtos\\usuario\\dadosusuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF912E00-22A3-D801-CC5C-77C9FA94DBDC}|CodeEscape\\CodeEscape.csproj|solutionrelative:codeescape\\dtos\\usuario\\dadosusuarioresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,85 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ObterEnigmaAtualResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\GameSession\\ObterEnigmaAtualResponse.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\GameSession\\ObterEnigmaAtualResponse.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\GameSession\\ObterEnigmaAtualResponse.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\GameSession\\ObterEnigmaAtualResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T23:13:31.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RoomService.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\RoomService.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Service\\RoomService.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\RoomService.cs",
-              "RelativeToolTip": "CodeEscape\\Service\\RoomService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwEgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T18:15:26.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Auth\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\Auth\\LoginRequest.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Auth\\LoginRequest.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\Auth\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T20:24:58.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CriarUsuarioRequest.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Usuario\\CriarUsuarioRequest.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\Usuario\\CriarUsuarioRequest.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Usuario\\CriarUsuarioRequest.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\Usuario\\CriarUsuarioRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T19:04:55.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CadastroService.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\CadastroService.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Service\\CadastroService.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\CadastroService.cs",
-              "RelativeToolTip": "CodeEscape\\Service\\CadastroService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T19:04:13.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MinhasPartidasResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\GameSession\\MinhasPartidasResponse.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\GameSession\\MinhasPartidasResponse.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\GameSession\\MinhasPartidasResponse.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\GameSession\\MinhasPartidasResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T15:13:44.756Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -161,121 +44,75 @@
               "RelativeDocumentMoniker": "CodeEscape\\Service\\GameSessionsService.cs",
               "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\GameSessionsService.cs",
               "RelativeToolTip": "CodeEscape\\Service\\GameSessionsService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAowJ0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-14T21:23:59.098Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Program.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Program.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Program.cs",
-              "RelativeToolTip": "CodeEscape\\Program.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAAAI8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:53:58.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RankingService.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\RankingService.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Service\\RankingService.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\RankingService.cs",
-              "RelativeToolTip": "CodeEscape\\Service\\RankingService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:27:31.637Z",
+              "WhenOpened": "2026-06-18T23:35:46.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DadosRoomResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Room\\DadosRoomResponse.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\Room\\DadosRoomResponse.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Room\\DadosRoomResponse.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\Room\\DadosRoomResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "CodeEscape\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "CodeEscape\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T18:15:17.024Z",
+              "WhenOpened": "2026-06-18T23:33:01.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Gamesession.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Models\\Gamesession.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Models\\Gamesession.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Models\\Gamesession.cs",
-              "RelativeToolTip": "CodeEscape\\Models\\Gamesession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "CodeEscape\\Service\\UsuarioService.cs",
+              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\UsuarioService.cs",
+              "RelativeToolTip": "CodeEscape\\Service\\UsuarioService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAmwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:51:04.067Z"
+              "WhenOpened": "2026-06-18T22:42:36.717Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RankingSalaResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Ranking\\RankingSalaResponse.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\Ranking\\RankingSalaResponse.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Ranking\\RankingSalaResponse.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\Ranking\\RankingSalaResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RankingService.cs",
+              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\RankingService.cs",
+              "RelativeDocumentMoniker": "CodeEscape\\Service\\RankingService.cs",
+              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Service\\RankingService.cs",
+              "RelativeToolTip": "CodeEscape\\Service\\RankingService.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:25:01.695Z"
+              "WhenOpened": "2026-06-18T23:19:17.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameSessionsController.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Controllers\\GameSessionsController.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Controllers\\GameSessionsController.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Controllers\\GameSessionsController.cs",
-              "RelativeToolTip": "CodeEscape\\Controllers\\GameSessionsController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wDMAAABEAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DadosUsuarioResponse.cs",
+              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Usuario\\DadosUsuarioResponse.cs",
+              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\Usuario\\DadosUsuarioResponse.cs",
+              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\Usuario\\DadosUsuarioResponse.cs",
+              "RelativeToolTip": "CodeEscape\\DTOs\\Usuario\\DadosUsuarioResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T02:52:42.001Z"
+              "WhenOpened": "2026-06-18T22:44:04.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Gamesessiondica.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Models\\Gamesessiondica.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Models\\Gamesessiondica.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Models\\Gamesessiondica.cs",
-              "RelativeToolTip": "CodeEscape\\Models\\Gamesessiondica.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Program.cs",
+              "RelativeDocumentMoniker": "CodeEscape\\Program.cs",
+              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Program.cs",
+              "RelativeToolTip": "CodeEscape\\Program.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T02:43:37.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RankingController.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\Controllers\\RankingController.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\Controllers\\RankingController.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\Controllers\\RankingController.cs",
-              "RelativeToolTip": "CodeEscape\\Controllers\\RankingController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBEAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-16T14:55:22.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PedirDicaResponse.cs",
-              "DocumentMoniker": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\GameSession\\PedirDicaResponse.cs",
-              "RelativeDocumentMoniker": "CodeEscape\\DTOs\\GameSession\\PedirDicaResponse.cs",
-              "ToolTip": "D:\\Projetos\\CodeEscape\\CodeEscape\\DTOs\\GameSession\\PedirDicaResponse.cs",
-              "RelativeToolTip": "CodeEscape\\DTOs\\GameSession\\PedirDicaResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T02:01:12.804Z"
+              "WhenOpened": "2026-06-18T22:43:14.039Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -10,19 +10,26 @@ namespace CodeEscape.Controllers
     [ApiController]
     public class UsuarioController : BaseController
     {
-        private readonly CadastroService _cadastroService;
+        private readonly UsuarioService _usuarioService;
 
-        public UsuarioController(CadastroService cadastroService) 
-        { 
-            _cadastroService = cadastroService;
+        public UsuarioController(UsuarioService usuarioService) 
+        {
+            _usuarioService = usuarioService;
         }
 
 
         [HttpPost]
         public IActionResult CriarUsuario(CriarUsuarioRequest dto)
         {
-            return Resultado(_cadastroService.CriarUsuario(dto));
+            return Resultado(_usuarioService.CriarUsuario(dto));
         }
+
+        [Authorize]
+        [HttpGet("perfil")]
+        public IActionResult Perfil()
+        {
+            return Resultado(_usuarioService.DadosPerfil());
+        } 
 
     }
 }

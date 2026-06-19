@@ -21,6 +21,29 @@
         }
       }
     },
+    "/api/GameSessions/{id}/resultado": {
+      "get": {
+        "tags": [
+          "GameSessions"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Ranking/sala/{roomId}": {
       "get": {
         "tags": [
@@ -71,6 +94,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Usuario/perfil": {
+      "get": {
+        "tags": [
+          "Usuario"
         ],
         "responses": {
           "200": {

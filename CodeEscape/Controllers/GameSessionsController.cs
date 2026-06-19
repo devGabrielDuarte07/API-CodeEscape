@@ -3,6 +3,7 @@ using CodeEscape.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace CodeEscape.Controllers
 {
@@ -50,6 +51,13 @@ namespace CodeEscape.Controllers
         public IActionResult MinhasPartidas()
         {
             return Resultado(_gameSessionsService.MinhasPartidas());
+        }
+
+        [Authorize]
+        [HttpGet("{id}/resultado")]
+        public IActionResult ResultadoFinal(int id)
+        {
+            return Resultado(_gameSessionsService.ResultadoPartida(id));
         }
     }
 }

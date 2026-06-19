@@ -54,6 +54,22 @@
   },
   {
     "ContainingType": "CodeEscape.Controllers.GameSessionsController",
+    "Method": "ResultadoFinal",
+    "RelativePath": "api/GameSessions/{id}/resultado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.GameSessionsController",
     "Method": "MinhasPartidas",
     "RelativePath": "api/GameSessions/minhas-partidas",
     "HttpMethod": "GET",
@@ -150,6 +166,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.UsuarioController",
+    "Method": "Perfil",
+    "RelativePath": "api/Usuario/perfil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

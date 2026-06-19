@@ -103,7 +103,7 @@ builder.Services.AddCors(options =>
 });
 
 // services
-builder.Services.AddScoped<CadastroService>();
+builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<GameSessionsService>();
 builder.Services.AddScoped<LoginService>();
 builder.Services.AddScoped<RankingService>();
