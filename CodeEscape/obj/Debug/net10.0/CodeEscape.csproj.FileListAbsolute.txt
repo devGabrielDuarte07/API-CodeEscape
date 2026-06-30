@@ -32,8 +32,6 @@ D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Microsoft.IdentityModel.Prot
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Microsoft.OpenApi.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Mono.TextTemplating.dll
-D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\MySqlConnector.dll
-D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Scalar.AspNetCore.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -135,4 +133,5 @@ D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.xml
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.pdb
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.genruntimeconfig.cache
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\ref\CodeEscape.dll
-D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Npgsql.dll
+D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
