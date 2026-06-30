@@ -141,6 +141,11 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
+if (!app.Environment.IsDevelopment())
+{
+    app.UseHttpsRedirection();
+}
+
 // 🔹 Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
