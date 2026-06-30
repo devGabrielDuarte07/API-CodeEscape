@@ -111,6 +111,28 @@ namespace CodeEscape.Service
             return ResultadoPadrao<DadosUsuarioResponse>.Ok(dados);
         }
 
+        public ResultadoPadrao<string> AtualizarAvatar(AtualizarAvatarRequest dto)
+        {
+            var userId = ObterIdUsuarioLogado();
+
+            var usuario = db.TabelaUsuarios.FirstOrDefault(x => x.Id == userId);
+
+            if (usuario == null)
+            {
+                return ResultadoPadrao<string>.Falha("Usuário não encontrado.", 404);
+            }
+
+            if (string.IsNullOrWhiteSpace(dto.AvatarUrl))
+            {
+                return ResultadoPadrao<string>.Falha("Avatar inválido.", 400);
+            }
+
+            usuario.AvatarUrl = dto.AvatarUrl;
+
+            db.SaveChanges();
+
+            return ResultadoPadrao<string>.Ok(usuario.AvatarUrl, "Avatar atualizado com sucesso.");
+        }
         private int ObterIdUsuarioLogado()
         {
 

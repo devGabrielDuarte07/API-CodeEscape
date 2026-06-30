@@ -29,7 +29,13 @@ namespace CodeEscape.Controllers
         public IActionResult Perfil()
         {
             return Resultado(_usuarioService.DadosPerfil());
-        } 
+        }
 
+        [Authorize]
+        [HttpPut("avatar")]
+        public IActionResult AtualizarAvatar(AtualizarAvatarRequest dto)
+        {
+            return Resultado(_usuarioService.AtualizarAvatar(dto));
+        }
     }
 }

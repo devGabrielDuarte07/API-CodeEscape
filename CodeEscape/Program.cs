@@ -1,4 +1,5 @@
 
+using CodeEscape.Configurations;
 using CodeEscape.Models;
 using CodeEscape.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -9,7 +10,7 @@ using System.Reflection;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-;
+
 // 🔹 Controllers
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -102,12 +103,20 @@ builder.Services.AddCors(options =>
     });
 });
 
+// email
+
+builder.Services.Configure<EmailSettings>(
+    builder.Configuration.GetSection("EmailSettings"));
+
 // services
+builder.Services.AddScoped<EmailService>();
+builder.Services.AddScoped<FeedbackService>();
 builder.Services.AddScoped<UsuarioService>();
 builder.Services.AddScoped<GameSessionsService>();
 builder.Services.AddScoped<LoginService>();
 builder.Services.AddScoped<RankingService>();
 builder.Services.AddScoped<RoomService>();
+builder.Services.AddScoped<UploadService>();
 builder.Services.AddHttpContextAccessor();
 
 // 🔹 JWT Authentication

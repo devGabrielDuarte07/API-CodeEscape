@@ -1,11 +1,13 @@
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\appsettings.Development.json
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\appsettings.json
+D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.staticwebassets.runtime.json
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.staticwebassets.endpoints.json
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.exe
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.deps.json
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.runtimeconfig.json
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.pdb
+D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.xml
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\BCrypt.Net-Next.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Humanizer.dll
 D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -116,6 +118,7 @@ D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.AssemblyInfo.cs
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.csproj.CoreCompileInputs.cache
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.MvcApplicationPartsAssemblyInfo.cs
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.sourcelink.json
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -128,11 +131,8 @@ D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\swae.build.ex.cache
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.csproj.Up2Date
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.dll
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\refint\CodeEscape.dll
+D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.xml
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.pdb
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.genruntimeconfig.cache
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\ref\CodeEscape.dll
-D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.xml
-D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.xml
-D:\Projetos\CodeEscape\CodeEscape\bin\Debug\net10.0\CodeEscape.staticwebassets.runtime.json
-D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\CodeEscape.sourcelink.json
 D:\Projetos\CodeEscape\CodeEscape\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

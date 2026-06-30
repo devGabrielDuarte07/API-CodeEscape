@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <UserSecretsId>7fbac11f-2c6a-47e9-a8e1-079e123c7e92</UserSecretsId>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -26,6 +27,11 @@
 
 	<ItemGroup>
 	  <Folder Include="wwwroot\uploads\avatars\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="Controllers\UploadController.cs" />
+	  <None Include="Service\UploadService.cs" />
 	</ItemGroup>
 
 </Project>

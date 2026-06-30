@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "CodeEscape.Controllers.FeedbackController",
+    "Method": "EnviarFeedback",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CodeEscape.DTOs.Feedback.FeedbackRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CodeEscape.Controllers.GameSessionsController",
     "Method": "PedirDica",
     "RelativePath": "api/GameSessions/{id}/dica",
@@ -153,6 +169,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CodeEscape.Controllers.UploadController",
+    "Method": "SalvarArquivo",
+    "RelativePath": "api/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "arquivo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CodeEscape.Controllers.UsuarioController",
     "Method": "CriarUsuario",
     "RelativePath": "api/Usuario",
@@ -163,6 +195,22 @@
       {
         "Name": "dto",
         "Type": "CodeEscape.DTOs.Usuario.CriarUsuarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CodeEscape.Controllers.UsuarioController",
+    "Method": "AtualizarAvatar",
+    "RelativePath": "api/Usuario/avatar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CodeEscape.DTOs.Usuario.AtualizarAvatarRequest",
         "IsRequired": true
       }
     ],

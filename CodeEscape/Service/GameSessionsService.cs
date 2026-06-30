@@ -1,5 +1,4 @@
 ﻿using CodeEscape.Common;
-using CodeEscape.DTOs;
 using CodeEscape.DTOs.GameSession;
 using CodeEscape.Models;
 using Microsoft.EntityFrameworkCore;

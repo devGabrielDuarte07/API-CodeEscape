@@ -22,28 +22,25 @@ namespace CodeEscape.Service
         public ResultadoPadrao<object> Login(LoginRequest dto) 
         {
             TabelaUsuario usuario;
+
             if (dto.Login.Contains("@"))
             {
                 usuario = db.TabelaUsuarios.FirstOrDefault(u => u.Email == dto.Login && u.IsAtivo);
-
-                if (usuario == null)
-                    return ResultadoPadrao<object>.Falha("Login ou senha inválidos", 404);
-                    
-                
             }
             else
             {
                 usuario = db.TabelaUsuarios.FirstOrDefault(u => u.Username == dto.Login && u.IsAtivo);
-                
-                if(usuario == null)
-                    return ResultadoPadrao<object>.Falha("Login ou senha inválidos", 404);
             }
-            
-            if(usuario == null && !BCrypt.Net.BCrypt.Verify(dto.Senha, usuario.Senha))
+
+            if (usuario == null)
+                return ResultadoPadrao<object>.Falha("Login ou senha inválidos", 404);
+
+            if (!BCrypt.Net.BCrypt.Verify(dto.Senha, usuario.Senha))
                 return ResultadoPadrao<object>.Falha("Login ou senha inválidos", 404);
 
             var token = GerarToken(usuario.Id, usuario.Perfil);
-            return ResultadoPadrao<object>.Ok(token); 
+
+            return ResultadoPadrao<object>.Ok(token);
         }
 
         private string GerarToken(int idUsuario, string role)

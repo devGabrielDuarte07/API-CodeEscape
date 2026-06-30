@@ -1,4 +1,4 @@
-﻿namespace CodeEscape.DTOs
+﻿namespace CodeEscape.DTOs.GameSession
 {
     public class ResultadoPartidaResponse
     {

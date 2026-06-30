@@ -53,10 +53,13 @@ namespace CodeEscape.Service
                 Nome = d.Nome,
                 Descricao = d.Descricao,
                 CapaUrl = string.IsNullOrWhiteSpace(d.CapaUrl) ? "uploads/capas/defaultCapa.png" : d.CapaUrl,
-                Criador = d.Criador == null ? "admin" : d.Criador.Nome,
+                Criador = "admin",
                 QuantidadeEnigma = quantidadeEnigmas,
                 Dificuldade = ObterDificuldade(quantidadeEnigmas)
             }).FirstOrDefault();
+            //                 
+            //                 
+
 
 
             if (room == null)
