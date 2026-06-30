@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build
+**/bin/
+**/obj/
+
+# User files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# ASP.NET
+**/appsettings.Development.json
+
+# Publish
+publish/
+
+# GitHub
+.github/*.md
+
+# Windows
+Thumbs.db
+Desktop.ini
